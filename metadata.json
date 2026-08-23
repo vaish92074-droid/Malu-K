@@ -1,0 +1,6 @@
+{
+  "name": "TurfGo",
+  "description": "Premium football turf booking and management system with live slot reservations, match pass ticketing, and venue administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
