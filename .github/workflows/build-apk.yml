@@ -1,12 +1,5 @@
-name: Build Debug APK
-
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
-
+- name: Build Debug APK
+  run: gradle assembleDebug --no-daemon
 jobs:
   build:
     runs-on: ubuntu-latest
